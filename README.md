@@ -28,6 +28,19 @@ Create the config file:
 Test by listing your droplets:
 ```sh
 ./rubyocean.rb -l
++--------+------------------------+--------+-----------------+-----------+---------+----------+
+| id     | name                   | status | public ip       | region id | size id | image id |
++--------+------------------------+--------+-----------------+-----------+---------+----------+
+| 439925 | ny2-sql1.uberuber.com  | active | 192.192.145.25  | 4         | 66      | 499923   |
+| 639939 | ns1.uberuber.com       | active | 162.192.121.25  | 4         | 66      | 599954   |
+| 639939 | ns2.uberuber.com       | active | 162.192.133.25  | 3         | 66      | 599954   |
+| 639944 | ny2-b1.uberuber.com    | active | 192.192.140.25  | 4         | 62      | 699998   |
+| 639946 | ny2-n1.uberuber.com    | active | 192.192.145.257 | 4         | 63      | 699998   |
+| 649923 | ny2-lbl1.uberuber.com  | active | 192.192.183.254 | 4         | 66      | 599954   |
+| 649925 | ny2-http1.uberuber.com | active | 192.192.143.255 | 4         | 62      | 299903   |
+| 649990 | ny2-util1.uberuber.com | active | 192.192.140.255 | 4         | 66      | 299903   |
+| 669987 | ny2-http2.uberuber.com | active | 192.192.162.257 | 4         | 62      | 299903   |
++--------+------------------------+--------+-----------------+-----------+---------+----------+
 ```
 
 View all available options:
